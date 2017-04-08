@@ -92,7 +92,8 @@ NS_ASSUME_NONNULL_BEGIN
  * Asks the data source for a cell to insert in a particular data of the calendar.
  */
 - (__kindof FSCalendarCell *)calendar:(FSCalendar *)calendar cellForDate:(NSDate *)date atMonthPosition:(FSCalendarMonthPosition)position;
-
+	
+- (void)calendarDidEndDecelerating:(FSCalendar *)calendar;
 /**
  * Asks the dataSource the number of event dots for a specific date.
  *
