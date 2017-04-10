@@ -296,6 +296,7 @@ IB_DESIGNABLE
  */
 @property (copy, nonatomic) NSLocale *locale;
 
+@property (strong, nonatomic) NSTimeZone *timeZone;
 /**
  * The scroll direction of FSCalendar. 
  *
